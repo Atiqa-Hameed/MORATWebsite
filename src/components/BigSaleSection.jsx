@@ -5,7 +5,7 @@ const BigSaleSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/src/assets/two girls.jpg"
+          src="/two girls.jpg"
           alt="Big Sale Background"
           className="w-full h-full object-cover"
         />

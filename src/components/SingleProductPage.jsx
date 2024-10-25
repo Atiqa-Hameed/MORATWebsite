@@ -7,9 +7,9 @@ const SingleProductPage = ({ products }) => {
   const product = products.find((p) => p.id === parseInt(id));
 
   const newproducts = [
-    { id: 1, imageUrl: '/src/assets/model1.jpg', title: 'Brown Printed', price: 99 },
-    { id: 2, imageUrl: '/src/assets/model2.jpg', title: 'Peach Printed', price: 99 },
-    { id: 3, imageUrl: '/src/assets/men1.jpg', title: 'Dark Brown', price: 99 },
+    { id: 1, imageUrl: '/model1.jpg', title: 'Brown Printed', price: 99 },
+    { id: 2, imageUrl: '/model2.jpg', title: 'Peach Printed', price: 99 },
+    { id: 3, imageUrl: '/men1.jpg', title: 'Dark Brown', price: 99 },
   ];
 
   return (
@@ -88,7 +88,7 @@ const SingleProductPage = ({ products }) => {
       <div className="relative mt-8 sm:mt-12 lg:mt-16 my-8 sm:my-12 lg:my-16">
         {/* Image Section */}
         <img
-          src="/src/assets/4.png"
+          src="/4.png"
           alt="Image"
           className="w-full h-auto max-h-[400px] sm:max-h-[500px] md:max-h-[600px] lg:max-h-[700px] xl:max-h-[800px] object-cover"
         />

@@ -37,21 +37,21 @@ const StackImages = () => {
       {/* Using ImageStack component with different images and captions */}
       <ImageStack
         title="CLOTHING"
-        image1="/src/assets/img5.jpg"
-        image2="/src/assets/img6.jpg"
-        image3="/src/assets/img7.jpg"
+        image1="/img5.jpg"
+        image2="/img6.jpg"
+        image3="/img7.jpg"
       />
       <ImageStack
         title="ACCESSORIES"
-        image1="/src/assets/img18.jpg"
-        image2="/src/assets/img17.jpg"
-        image3="/src/assets/16.jpg"
+        image1="/img18.jpg"
+        image2="/img17.jpg"
+        image3="/16.jpg"
       />
       <ImageStack
         title="MORAT PRODUCTS"
-        image1="/src/assets/img22.jpg"
-        image2="/src/assets/img21.png"
-        image3="/src/assets/img19.jpeg"
+        image1="/img22.jpg"
+        image2="/img21.png"
+        image3="/img19.jpeg"
       />
     </div>
   );

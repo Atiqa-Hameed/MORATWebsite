@@ -12,12 +12,12 @@ import SingleProductPage from "./components/SingleProductPage"
 
 const App = () => {
   const products = [
-    { id: 1, title: 'Brown Printed', description: 'A beautiful brown printed dress.', price: 99, imageUrl: '/src/assets/model1.jpg' },
-    { id: 2, title: 'Peach Printed', description: 'A stylish peach printed dress.', price: 99, imageUrl: '/src/assets/model2.jpg' },
-    { id: 3, title: 'Dark Brown', description: 'A fashionable dark brown outfit.', price: 99, imageUrl: '/src/assets/men1.jpg' },
-    { id: 4, title: 'Blue', description: 'A trendy blue outfit.', price: 99, imageUrl: '/src/assets/men2.jpg' },
-    { id: 5, title: 'New Collection', description: 'A fresh collection of trendy outfits.', price: 99, imageUrl: '/src/assets/men3.jpg' },
-    { id: 6, title: '3 Piece Printed', description: 'An elegant 3-piece printed outfit.', price: 99, imageUrl: '/src/assets/model3.jpg' },
+    { id: 1, title: 'Brown Printed', description: 'A beautiful brown printed dress.', price: 99, imageUrl: '/model1.jpg' },
+    { id: 2, title: 'Peach Printed', description: 'A stylish peach printed dress.', price: 99, imageUrl: '/model2.jpg' },
+    { id: 3, title: 'Dark Brown', description: 'A fashionable dark brown outfit.', price: 99, imageUrl: '/men1.jpg' },
+    { id: 4, title: 'Blue', description: 'A trendy blue outfit.', price: 99, imageUrl: '/men2.jpg' },
+    { id: 5, title: 'New Collection', description: 'A fresh collection of trendy outfits.', price: 99, imageUrl: '/men3.jpg' },
+    { id: 6, title: '3 Piece Printed', description: 'An elegant 3-piece printed outfit.', price: 99, imageUrl: '/model3.jpg' },
   ];
   return (
     <BrowserRouter>

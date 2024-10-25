@@ -1,9 +1,9 @@
-import homeIcon from '/src/assets/home.png';
-import clothesIcon from '/src/assets/clothes-icon.svg';
-import accessoriesIcon from '/src/assets/accessories-icon.svg';
-import appliancesIcon from '/src/assets/appliances-icon.svg';
-import moratProductsIcon from '/src/assets/MORAT LOGO.png';
-import sellerImage from '/src/assets/best seller.png';
+import homeIcon from '/home.png';
+import clothesIcon from '/clothes-icon.svg';
+import accessoriesIcon from '/accessories-icon.svg';
+import appliancesIcon from '/appliances-icon.svg';
+import moratProductsIcon from '/MORAT LOGO.png';
+import sellerImage from '/best seller.png';
 
 const CategoriesSection = () => {
   return (
@@ -73,7 +73,7 @@ const CategoriesSection = () => {
     
         <div className="flex-1 mt-8 lg:mt-0">
           <img
-            src="/src/assets/men.jpg"
+            src="/men.jpg"
             alt="Casual Style"
             className="object-cover h-[550px] w-full shadow-md"
           />

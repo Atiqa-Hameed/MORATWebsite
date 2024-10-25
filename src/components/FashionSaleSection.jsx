@@ -4,7 +4,7 @@ const FashionSaleSection = () => {
     <div className="relative mt-4 sm:mt-8  lg:mt-6 my-8 sm:my-12 lg:my-16">
       {/* Image Section */}
       <img
-        src="/src/assets/ima.png"
+        src="/ima.png"
         alt="Fashion Image"
         className="w-full object-cover h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px]"
       />

@@ -7,7 +7,7 @@ const HeroSection = () => {
         {/* Left Large Image */}
         <div className="w-full h-[620px] md:h-[630px]">
           <img
-            src="/src/assets/img1.jpg"
+            src="/img1.jpg"
             alt="Large Image"
             className="w-full h-full object-cover"
           />
@@ -19,7 +19,7 @@ const HeroSection = () => {
           {/* Top Image */}
           <div className="w-full h-[325px]">
             <img
-              src="/src/assets/clothe.png"
+              src="/clothe.png"
               alt="Top Image"
               className="w-full h-full object-cover"
             />
@@ -29,14 +29,14 @@ const HeroSection = () => {
           <div className="grid grid-cols-[4fr_3fr] gap-4">
             <div className="w-full h-[288px]">
               <img
-                src="/src/assets/img3.jpg"
+                src="/img3.jpg"
                 alt="Image 2"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="w-full h-[288px]">
               <img
-                src="/src/assets/img4.jpg"
+                src="/img4.jpg"
                 alt="Image 3"
                 className="w-full h-full object-cover"
               />

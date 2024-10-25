@@ -10,7 +10,7 @@ const Navbar = () => {
           </a>
           <NavLink to="/logoPage">
           <img 
-            src="/src/assets/MORAT LOGO.png" 
+            src="/MORAT LOGO.png" 
             alt="Centered Image" 
             className="h-20 md:h-40"  
           />

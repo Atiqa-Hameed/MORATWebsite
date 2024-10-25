@@ -3,9 +3,9 @@ import ImageGallery from "../ImageGallery";
 import FashionSaleSection from "../FashionSaleSection";
 const LogoPage = () => {
   const defaultCategories = [
-    { category: 'Women\'s Clothes', src: 'src/assets/cate.jpg' },
-    { category: 'Men\'s Clothes', src: 'src/assets/cate1.jpg' },
-    { category: 'Accessories', src: '/src/assets/16.jpg' }
+    { category: 'Women\'s Clothes', src: '/cate.jpg' },
+    { category: 'Men\'s Clothes', src: '/cate1.jpg' },
+    { category: 'Accessories', src: '/16.jpg' }
   ];
   return (
     <>
@@ -14,7 +14,7 @@ const LogoPage = () => {
         <div className="relative flex items-center justify-center">
           <div className="w-[200px] xs:w-[250px] sm:w-[300px] md:w-[350px] lg:w-[400px] xl:w-[450px] h-[200px] xs:h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] xl:h-[450px] bg-white rounded-full shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] flex items-center justify-center">
             <img
-              src="src/assets/MORAT LOGO.png" // Replace this with the correct path to your logo
+              src="/MORAT LOGO.png" // Replace this with the correct path to your logo
               alt="Loja Logo"
               className="w-full h-full object-contain"
             />
@@ -66,17 +66,17 @@ const LogoPage = () => {
         {/* Circular Image Section */}
         {[
           {
-            src: "src/assets/tradecenter.jpg",
+            src: "/tradecenter.jpg",
             alt: "Siddique Trade Center",
             label: "SIDDIQUE TRADE CENTER",
           },
           {
-            src: "src/assets/imperial.jpg",
+            src: "/imperial.jpg",
             alt: "Imperial Mall",
             label: "IMPERIAL MALL",
           },
           {
-            src: "src/assets/xinhua.jpg",
+            src: "/xinhua.jpg",
             alt: "Xinhua Mall",
             label: "XINHUA MALL",
           },

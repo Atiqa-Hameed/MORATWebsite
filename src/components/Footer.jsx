@@ -1,5 +1,5 @@
 import { FaFacebookSquare, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import moratProductsIcon from '/src/assets/MORAT LOGO.png';
+import moratProductsIcon from '/MORAT LOGO.png';
 
 const Footer = () => {
   return (
